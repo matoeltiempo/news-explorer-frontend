@@ -1,0 +1,12 @@
+.commit__github-text {
+  font-family: roboto-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+.commit__github-text:hover {
+  opacity: .7;
+}

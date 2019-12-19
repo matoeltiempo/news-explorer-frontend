@@ -1,0 +1,8 @@
+@import url(./__title/commit__title.css);
+@import url(./__github/commit__github.css);
+@import url(./__container/commit__conainer.css);
+@import url(./__github-text/commit__github-text.css);
+
+.commit {
+  min-height: 606px;
+}

@@ -1,0 +1,8 @@
+.header__container {
+  display: flex;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,22 @@
+.article__button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  top: 24px;
+  right: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.article__button:hover .article__flag {
+  background-image: url(../../../src/images/icons/flag-hover.svg);
+}
+
+.article__button:active .article__flag {
+  background-image: url(../../../src/images/icons/flag-active.svg);
+}

@@ -1,0 +1,8 @@
+@import url(./__title/technologies__title.css);
+@import url(./__container/techhnologies__container.css);
+
+.technologies {
+  width: 100%;
+  min-height: 334px;
+  display: flex;
+}

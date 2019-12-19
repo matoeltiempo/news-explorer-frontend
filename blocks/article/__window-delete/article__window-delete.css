@@ -1,0 +1,15 @@
+@import url(./__window-delete-title/article__window-delete-title.css);
+
+.article__window-delete {
+  display: flex;
+  position: absolute;
+  width: 159px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  top: 24px;
+  right: 69px;
+  align-items: center;
+  text-align: center;
+  /* display: none; */
+}

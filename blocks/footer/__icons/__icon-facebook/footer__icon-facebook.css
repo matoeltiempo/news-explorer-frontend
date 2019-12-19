@@ -1,0 +1,7 @@
+.footer__icon-facebook {
+  margin-left: 26px;
+}
+
+.footer__icon-facebook:hover {
+  opacity: 0.7;
+}

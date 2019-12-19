@@ -1,0 +1,7 @@
+.footer__link-main {
+  color: #1a1b22;
+}
+
+.footer__link-main:hover {
+  opacity: 0.7;
+}

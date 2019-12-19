@@ -1,0 +1,7 @@
+@import url(./__icon-git/footer__icon-git.css);
+@import url(./__icon-facebook/footer__icon-facebook.css);
+
+.footer__icons {
+  display: flex;
+  margin-left: 22.2%;
+}

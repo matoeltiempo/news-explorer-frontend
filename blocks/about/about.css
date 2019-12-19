@@ -1,0 +1,10 @@
+@import url(./__content/about__content.css);
+@import url(./__title/about__title.css);
+@import url(./__text/about__text.css);
+@import url(./__subtitle/about__subtitle.css);
+@import url(./__paragraph/about__paragraph.css);
+
+.about {
+  width: 100%;
+  background-color: #ffffff;
+}

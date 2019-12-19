@@ -1,0 +1,8 @@
+.footer__link-yandex {
+  color: #1a1b22;
+  margin-left: 34px;
+}
+
+.footer__link-yandex:hover {
+  opacity: 0.7;
+}

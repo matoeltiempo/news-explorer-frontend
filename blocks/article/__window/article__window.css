@@ -1,0 +1,15 @@
+@import url(./__window-title/article__window-title.css);
+
+.article__window {
+  display: flex;
+  position: absolute;
+  width: 182px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  top: 24px;
+  right: 69px;
+  align-items: center;
+  text-align: center;
+  /* display: none; */
+}

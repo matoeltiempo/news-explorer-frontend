@@ -1,0 +1,17 @@
+@import url(./__container/header__container.css);
+@import url(./__container-black/header__container-black.css);
+@import url(./__title/header__title.css);
+@import url(./_title-black/header__title-black.css);
+@import url(./__links/header__links.css);
+@import url(./__active/header__active.css);
+@import url(./__active-about/header__active-about.css);
+@import url(./__active-saved-news/header__active-saved-news.css);
+
+.header {
+  width: 100%;
+  background-image: url(../../src/images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 576px;
+  position: relative;
+}

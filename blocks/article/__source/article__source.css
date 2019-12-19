@@ -1,0 +1,12 @@
+.article__source {
+  position: absolute;
+  color: #b6bcbf;
+  font-family: robotoslab-regular;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  bottom: 24px;
+  left: 24px;
+}

@@ -1,0 +1,10 @@
+.article__topic-text {
+  font-family: roboto-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin: auto 12px auto 12px;
+  max-width: 100px;
+}

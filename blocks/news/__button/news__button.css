@@ -1,0 +1,25 @@
+.news__button {
+  width: 288px;
+  height: 64px;
+  color: #1a1b22;
+  background-color: #ffffff;
+  font-family: roboto-medium;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  border-radius: 80px;
+  border: 0px;
+  padding: 0px;
+  margin: 2px auto 80px 40%;
+  box-shadow: 0 5px 15px rgba(14,26,57,.5);
+}
+
+.news__button:hover {
+  background-color: #e6e8eb;
+}
+
+.news__button:active {
+  background-color: #1a1b22;
+  color: #ffffff;
+}

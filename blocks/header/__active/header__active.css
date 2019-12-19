@@ -1,0 +1,8 @@
+.header__active {
+  height: 100%;
+  align-items: center;
+  margin-right: 34px;
+  display: flex;
+  border-bottom: 3px solid #ffffff;
+  color: #b6bcbf;;
+}

@@ -1,0 +1,13 @@
+@import url(./__topic-text/article__topic-text.css);
+
+.article__topic {
+  display: flex;
+  position: absolute;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  top: 24px;
+  left: 24px;
+  align-items: center;
+  text-align: center;
+}

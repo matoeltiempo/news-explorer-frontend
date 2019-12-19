@@ -1,0 +1,7 @@
+.header__active-saved-news {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  border-bottom: 3px solid #1A1B22;
+  margin-left: 34px;
+}

@@ -1,0 +1,19 @@
+@import url(./__image/article__image.css);
+@import url(./__data/article__data.css);
+@import url(./__title/article__title.css);
+@import url(./__text/article__text.css);
+@import url(./__source/article__source.css);
+@import url(./__button/article__button.css);
+@import url(./__flag/article__flag.css);
+@import url(./__window/article__window.css);
+@import url(./__button-delete/aritcle__button-delete.css);
+@import url(./__image-delete/article__image-delete.css);
+@import url(./__window-delete/article__window-delete.css);
+@import url(./__topic/article__topic.css);
+
+.article {
+  position: relative;
+  border-radius: 20px;
+  background: #ffffff;
+  height: 576px;
+}

@@ -1,0 +1,22 @@
+.article__button-delete {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  top: 24px;
+  right: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.article__button-delete:hover .article__image-delete {
+  background-image: url(../../../src/images/icons/trash-hover.svg);
+}
+
+.article__button-delete:active .article__image-delete {
+  background-image: url(../../../src/images/icons/trash-active.svg);
+}

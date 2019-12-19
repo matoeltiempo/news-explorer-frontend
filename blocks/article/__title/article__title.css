@@ -1,0 +1,11 @@
+.article__title {
+  color: #1a1b22;
+  font-family: robotoslab-regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 12px;
+  margin-left: 24px;
+  max-width: 352px;
+}

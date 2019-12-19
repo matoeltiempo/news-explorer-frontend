@@ -6,13 +6,127 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>news explorer</title>
-  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
+  <link rel="shortcut icon" type="image/png" href="<%=require('./images/icons/news-explorer.png')%>">
 </head>
 
 <body>
-  <h1>Hello</h1>
+  <div class="page">
+    <div class="header">
+      <header class="header__container">
+        <a href="./index.html" class="header__title">NewsExplorer</a>
+        <div class="header__links">
+          <div class="header__active">
+            <a href="./index.html" class="header__link-main">Главная</a>
+          </div>
+          <a href="./about.html" class="header__link-about">О проекте</a>
+          <a href="./saved-news.html" class="header__link-saved-news">Сохранённые статьи</a>
+          <button class="button__authorization">
+            <h3 class="button__authorization-text">Авторизоваться</h3>
+            <img src="<%=require('./images/icons/logout.svg')%>" class="button__authorization-image" alt="logout">
+          </button>
+        </div>
+      </header>
+
+      <div class="search">
+        <h1 class="search__title">Что в мире творится?</h1>
+        <h3 class="search__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.
+        </h3>
+        <div class="search__container">
+          <input required type="text" name="text" class="search__input" placeholder="Введите тему новости">
+          <button class="search__button">Искать</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="news">
+      <h2 class="news__title">Результаты поиска</h2>
+      <div class="news__container">
+        <div class="article">
+          <img src="<%=require('./images/arcile1.jpg')%>" class="article__image" alt="aricle1">
+          <div class="article__window">
+            <h3 class="article__window-title">Войдите, чтобы сохранять статьи</h3>
+          </div>
+          <button class="article__button">
+            <div class="article__flag"></div>
+          </button>
+          <div class="article__data">2 августа, 2019</div>
+          <div class="article__title">Национальное достояние – парки</div>
+          <div class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+          <div class="article__source">Лента.ру</div>
+        </div>
+
+        <div class="article">
+          <img src="<%=require('./images/article2.jpg')%>" class="article__image" alt="article2">
+          <div class="article__window">
+            <h3 class="article__window-title">Войдите, чтобы сохранять статьи</h3>
+          </div>
+          <button class="article__button">
+            <div class="article__flag"></div>
+          </button>
+          <div class="article__data">2 августа, 2019</div>
+          <div class="article__title">Лесные огоньки: история одной фотографии</div>
+          <div class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
+            из местных чудес природы.</div>
+          <div class="article__source">Медуза</div>
+        </div>
+
+        <div class="article">
+          <img src="<%=require('./images/article3.jpg')%>" class="article__image" alt="article3">
+          <div class="article__window">
+            <h3 class="article__window-title">Войдите, чтобы сохранять статьи</h3>
+          </div>
+          <button class="article__button">
+            <div class="article__flag"></div>
+          </button>
+          <div class="article__data">2 августа, 2019</div>
+          <div class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</div>
+          <div class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</div>
+          <div class="article__source">Риа</div>
+        </div>
+      </div>
+      <button class="news__button">Показать еще</button>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader__container">
+        <div class="preloader__element"></div>
+        <h3 class="preloader__text">Идет поиск новостей...</h3>
+      </div>
+      <div class="preloader__errors">
+        <img src="<%=require('./images/icons/not-found.svg')%>" class="preloader__error-image" alt="not-found">
+        <h2 class="preloader__error-title">Ничего не найдено</h2>
+        <h3 class="preloader__error-subtitle">К сожалению по вашему запросу
+          ничего не найдено.</h3>
+      </div>
+    </div>
+    <div class="author">
+      <img src="<%=require('./images/avatar.jpg')%>" class="author__avatar" alt="avatar">
+      <div class="author__container">
+        <h2 class="author__title">Об авторе</h2>
+        <h3 class="author__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут,
+          чем вы занимаетесь, какими технологиями разработки владеете.</h3>
+        <h3 class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем
+          можете помочь потенциальным заказчикам.</h3>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h5 class="footer__title">&#169; 2019 Supersite</h5>
+      <div class="footer__links">
+        <a href="./index.html" class="footer__link-main">Главная</a>
+        <a href="./about.html" class="footer__link-about">О проекте</a>
+        <a href="" class="footer__link-yandex">Яндекс.Практикум</a>
+      </div>
+
+      <div class="footer__icons">
+        <a href=""><img class="footer__icon-git" src="<%=require('./images/icons/git.svg')%>" alt="git"></a>
+        <a href=""><img class="footer__icon-facebook" src="<%=require('./images/icons/facebook.svg')%>"
+            alt="facebook"></a>
+    </footer>
+  </div>
+  </div>
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
-
-
 </html>
