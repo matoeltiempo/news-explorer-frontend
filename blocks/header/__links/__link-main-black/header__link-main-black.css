@@ -1,3 +1,7 @@
 .header__link-main-black {
-  color: #1A1B22;
+  color: #b6bcbf;
+}
+
+.header__link-main-black:hover {
+  color: #1A1B22
 }
