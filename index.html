@@ -6,20 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>news explorer</title>
-  <link rel="stylesheet" href="style.bbc6c57260d6ef276852.css?68d7ec9529f4f070e871">
+  <link rel="stylesheet" href="style.837ac97c60a85a059e51.css?65a5430696b78bffdeb8">
+  <link rel="shortcut icon" type="image/png" href="news-explorer.png">
 </head>
 
 <body>
   <div class="page">
     <div class="header">
       <header class="header__container">
-        <a href="#" class="header__title">NewsExplorer</a>
+        <a href="./index.html" class="header__title">NewsExplorer</a>
         <div class="header__links">
           <div class="header__active">
-            <a href="" class="header__link-main">Главная</a>
+            <a href="./index.html" class="header__link-main">Главная</a>
           </div>
-          <a href="" class="header__link-about">О проекте</a>
-          <a href="" class="header__link-authorization">Авторизоваться</a>
+          <a href="./about.html" class="header__link-about">О проекте</a>
+          <button class="button__authorization">
+            <h3 class="button__authorization-text">Авторизоваться</h3>
+            <img src="logout.svg" class="button__authorization-image" alt="logout">
+          </button>
         </div>
       </header>
 
@@ -40,9 +44,12 @@
       <div class="news__container">
         <div class="article">
           <img src="arcile1.jpg" class="article__image" alt="aricle1">
-          <div class="article__area">
-            <img src="flag.png" class="article__flag" alt="flag">
+          <div class="article__window">
+            <h3 class="article__window-title">Войдите, чтобы сохранять статьи</h3>
           </div>
+          <button class="article__button">
+            <div class="article__flag"></div>
+          </button>
           <div class="article__data">2 августа, 2019</div>
           <div class="article__title">Национальное достояние – парки</div>
           <div class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
@@ -51,9 +58,12 @@
 
         <div class="article">
           <img src="article2.jpg" class="article__image" alt="article2">
-          <div class="article__area">
-            <img src="flag.png" class="article__flag" alt="flag">
+          <div class="article__window">
+            <h3 class="article__window-title">Войдите, чтобы сохранять статьи</h3>
           </div>
+          <button class="article__button">
+            <div class="article__flag"></div>
+          </button>
           <div class="article__data">2 августа, 2019</div>
           <div class="article__title">Лесные огоньки: история одной фотографии</div>
           <div class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного
@@ -63,9 +73,12 @@
 
         <div class="article">
           <img src="article3.jpg" class="article__image" alt="article3">
-          <div class="article__area">
-            <img src="flag.png" class="article__flag" alt="flag">
+          <div class="article__window">
+            <h3 class="article__window-title">Войдите, чтобы сохранять статьи</h3>
           </div>
+          <button class="article__button">
+            <div class="article__flag"></div>
+          </button>
           <div class="article__data">2 августа, 2019</div>
           <div class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</div>
           <div class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</div>
@@ -75,6 +88,18 @@
       <button class="news__button">Показать еще</button>
     </div>
 
+    <div class="preloader">
+      <div class="preloader__container">
+        <div class="preloader__element"></div>
+        <h3 class="preloader__text">Идет поиск новостей...</h3>
+      </div>
+      <div class="preloader__errors">
+        <img src="not-found.svg" class="preloader__error-image" alt="not-found">
+        <h2 class="preloader__error-title">Ничего не найдено</h2>
+        <h3 class="preloader__error-subtitle">К сожалению по вашему запросу
+          ничего не найдено.</h3>
+      </div>
+    </div>
     <div class="author">
       <img src="avatar.jpg" class="author__avatar" alt="avatar">
       <div class="author__container">
@@ -89,20 +114,18 @@
     <footer class="footer">
       <h5 class="footer__title">&#169; 2019 Supersite</h5>
       <div class="footer__links">
-        <a href="" class="footer__link-main">Главная</a>
-        <a href="" class="footer__link-about">О проекте</a>
+        <a href="./index.html" class="footer__link-main">Главная</a>
+        <a href="./about.html" class="footer__link-about">О проекте</a>
         <a href="" class="footer__link-yandex">Яндекс.Практикум</a>
       </div>
 
       <div class="footer__icons">
-        <a href=""><img class="footer__icon-git" src="git.png" alt="git"></a>
-        <a href=""><img class="footer__icon-facebook" src="facebook.png"
+        <a href=""><img class="footer__icon-git" src="git.svg" alt="git"></a>
+        <a href=""><img class="footer__icon-facebook" src="facebook.svg"
             alt="facebook"></a>
     </footer>
   </div>
   </div>
-  <script src="main.19a631517f6d367c6073.js?68d7ec9529f4f070e871"></script>
+  <script src="main.19a631517f6d367c6073.js?65a5430696b78bffdeb8"></script>
 </body>
-
-
 </html>
