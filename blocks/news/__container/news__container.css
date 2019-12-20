@@ -1,8 +1,0 @@
-.news__container {
-  display: grid;
-  grid-template-columns: repeat(3, 400px);
-  grid-gap: 16px;
-  grid-auto-rows: auto;
-  margin-left: 7.2%;
-  margin-bottom: 62px;
-}

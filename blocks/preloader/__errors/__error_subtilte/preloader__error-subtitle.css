@@ -6,6 +6,6 @@
   line-height: 24px;
   color: #b6bcbf;
   margin: 16px auto 80px auto;
-  width: 340px;
+  max-width: 340px;
   text-align: center;
 }

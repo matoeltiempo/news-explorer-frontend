@@ -1,0 +1,15 @@
+@import url(./_authorization-text/button_authorization-text.css);
+@import url(./_authorization-image/button_authorization-image.css);
+
+.button_authorization {
+  height: 48px;
+  margin-right: 8%;
+  margin-left: 44px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 11px 12px 15px 12px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  display: flex;
+}

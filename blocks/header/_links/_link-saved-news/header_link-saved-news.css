@@ -1,0 +1,14 @@
+.header_link-saved-news {
+  font-family: roboto-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+  margin-left: 34px;
+  display: none;
+}
+
+.header_link-saved-news:hover {
+  color: #ffffff;
+}

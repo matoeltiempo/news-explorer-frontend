@@ -11,3 +11,10 @@
   align-items: center;
   text-align: center;
 }
+
+@media screen and (max-width: 1120px) and (min-width: 769px) {
+  .article__topic {
+    top: 10px;
+    left: 10px;
+  }
+}

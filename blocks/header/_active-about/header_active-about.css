@@ -1,0 +1,7 @@
+.header_active-about {
+  height: 100%;
+  align-items: center;
+  margin-left: 34px;
+  display: flex;
+  border-bottom: 3px solid #1A1B22;
+}

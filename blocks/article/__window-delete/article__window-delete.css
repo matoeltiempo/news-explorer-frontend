@@ -13,3 +13,19 @@
   text-align: center;
   /* display: none; */
 }
+
+@media screen and (max-width: 1120px) and (min-width: 951px) {
+  .article__window-delete {
+    top: 10px;
+    right: 57px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 769px) {
+  .article__window-delete {
+    top: 10px;
+    right: 53px;
+    width: 100px;
+  }
+}

@@ -9,3 +9,13 @@
   display: flex;
   background-color: #ffffff;
 }
+
+@media screen and (max-width: 635px) and (min-width: 320px) {
+  .author {
+    height: 624px;
+    display: grid;
+    height: auto;
+    justify-items: center;
+    padding-bottom: 80px;
+  }
+}

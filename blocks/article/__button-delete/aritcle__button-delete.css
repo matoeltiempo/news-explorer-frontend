@@ -20,3 +20,10 @@
 .article__button-delete:active .article__image-delete {
   background-image: url(../../../src/images/icons/trash-active.svg);
 }
+
+@media screen and (max-width: 1120px) and (min-width: 769px) {
+  .article__button-delete {
+    top: 10px;
+    right: 10px;
+  }
+}

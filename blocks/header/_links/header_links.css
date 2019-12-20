@@ -1,0 +1,25 @@
+@import url(./__link-about/header__link-about.css);
+@import url(./_link-about-select/header__link-about-select.css);
+@import url(./_link-about-black/header_link-about-black.css);
+@import url(./__link-main/header__link-main.css);
+@import url(./_link-main-black/header_link-main-black.css);
+@import url(./_link-saved-news/header_link-saved-news.css);
+@import url(./_link-saved-news-select/header_link-saved-news-select.css);
+@import url(./_link-saved-news-black/header_link-saved-news-black.css);
+
+.header_links {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: roboto-medium;
+  font-size: 18px;
+  line-height: 24px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 635px) and (min-width: 320px) {
+  .header_links {
+    display: none;
+  }
+}

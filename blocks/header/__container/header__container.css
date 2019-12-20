@@ -6,3 +6,9 @@
   border-bottom: 1px solid;
   border-color: rgba(255, 255, 255, 0.2);
 }
+
+@media screen and (max-width: 635px) and (min-width: 320px) {
+  .header__container {
+    height: 56px;
+  }
+}

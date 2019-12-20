@@ -15,15 +15,16 @@
     <div class="header">
       <header class="header__container">
         <a href="./index.html" class="header__title">NewsExplorer</a>
-        <div class="header__links">
+        <img src="<%=require('./images/icons/menu.svg')%>" class="header_button" alt="menu">
+        <div class="header_links">
           <div class="header__active">
             <a href="./index.html" class="header__link-main">Главная</a>
           </div>
           <a href="./about.html" class="header__link-about">О проекте</a>
-          <a href="./saved-news.html" class="header__link-saved-news">Сохранённые статьи</a>
-          <button class="button__authorization">
-            <h3 class="button__authorization-text">Авторизоваться</h3>
-            <img src="<%=require('./images/icons/logout.svg')%>" class="button__authorization-image" alt="logout">
+          <a href="./saved-news.html" class="header_link-saved-news">Сохранённые статьи</a>
+          <button class="button_authorization">
+            <h3 class="button_authorization-text">Авторизоваться</h3>
+            <img src="<%=require('./images/icons/logout.svg')%>" class="button_authorization-image" alt="logout">
           </button>
         </div>
       </header>
@@ -32,17 +33,17 @@
         <h1 class="search__title">Что в мире творится?</h1>
         <h3 class="search__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.
         </h3>
-        <div class="search__container">
+        <form name="search" class="search__container">
           <input required type="text" name="text" class="search__input" placeholder="Введите тему новости">
           <button class="search__button">Искать</button>
-        </div>
+        </form>
       </div>
 
     </div>
 
     <div class="news">
       <h2 class="news__title">Результаты поиска</h2>
-      <div class="news__container">
+      <div class="newspaper">
         <div class="article">
           <img src="<%=require('./images/arcile1.jpg')%>" class="article__image" alt="aricle1">
           <div class="article__window">
@@ -86,7 +87,9 @@
           <div class="article__source">Риа</div>
         </div>
       </div>
-      <button class="news__button">Показать еще</button>
+      <div class="news__bottom">
+        <button class="news__button">Показать еще</button>
+      </div>
     </div>
 
     <div class="preloader">

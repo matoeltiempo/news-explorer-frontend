@@ -1,0 +1,13 @@
+.header_active-saved-news {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  border-bottom: 3px solid #1A1B22;
+  margin-left: 34px;
+}
+
+@media screen and (max-width: 820px) and (min-width: 636px) {
+  .header_active-saved-news {
+    margin-left: 5px;
+  }
+}

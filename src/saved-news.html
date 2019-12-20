@@ -12,18 +12,19 @@
 
 <body>
   <div class="page">
-    <div class="news__saved">
-      <header class="header__container-black">
-        <a href="./index.html" class="header__title-black">NewsExplorer</a>
-        <div class="header__links">
-          <a href="./index.html" class="header__link-main-black">Главная</a>
-          <a href="./about.html" class="header__link-about-black">О проекте</a>
-          <div class="header__active-saved-news">
-            <a href="./saved-news.html" class="header__link-saved-news-select">Сохранённые статьи</a>
+    <div class="news_saved">
+      <header class="header_container-black">
+        <a href="./index.html" class="header_title_black">NewsExplorer</a>
+        <img src="<%=require('./images/icons/menu-black.svg')%>" class="header_button" alt="menu">
+        <div class="header_links">
+          <a href="./index.html" class="header_link-main-black">Главная</a>
+          <a href="./about.html" class="header_link-about-black">О проекте</a>
+          <div class="header_active-saved-news">
+            <a href="./saved-news.html" class="header_link-saved-news-select">Сохранённые статьи</a>
           </div>
-          <button class="button__authorization-black">
-            <h3 class="button__authorization-black-text">Грета</h3>
-            <img src="<%=require('./images/icons/logout-black.svg')%>" class="button__authorization-black-image"
+          <button class="button_authorization-black">
+            <h3 class="button_authorization-black-text">Грета</h3>
+            <img src="<%=require('./images/icons/logout-black.svg')%>" class="button_authorization-black-image"
               alt="logout">
           </button>
         </div>
@@ -36,7 +37,7 @@
       </div>
     </div>
 
-    <div class="news__container">
+    <div class="newspaper">
       <div class="article">
         <img src="<%=require('./images/arcile1.jpg')%>" class="article__image" alt="aricle1">
         <div class="article__topic">

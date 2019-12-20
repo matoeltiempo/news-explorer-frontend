@@ -15,5 +15,5 @@
   position: relative;
   border-radius: 20px;
   background: #ffffff;
-  height: 576px;
+  min-height: 576px;
 }
