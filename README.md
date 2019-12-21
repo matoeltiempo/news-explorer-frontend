@@ -1,6 +1,6 @@
 # news-explorer-frontend
 
-### тестовый проект доступен по [адресу](http://matoeltiempo.site/)
+### проект доступен по [адресу](http://matoeltiempo.site/)
 
 http://matoeltiempo.site/
 
