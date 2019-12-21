@@ -1,6 +1,8 @@
 # news-explorer-frontend
 
-### тестовый проект доступен по [адресу](https://matoeltiempo.github.io/news-explorer-frontend/)
+### тестовый проект доступен по [адресу](http://matoeltiempo.site/)
+
+http://matoeltiempo.site/
 
 ### Установка и запуск проекта
 1. Скачайте сборку архивом или используя команду:
@@ -18,4 +20,4 @@ npm run dev
 npm run deploy
 ```
 
-### Локальный сервер будет доступен по [адресу](localhost:3000)
+### Локальный сервер будет доступен по [адресу](http://localhost:3000/)
