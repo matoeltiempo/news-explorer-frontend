@@ -10,7 +10,7 @@
 
 .header {
   width: 100%;
-  background-image: url(../../src/images/cover.jpg);
+  background-image: url(../../images/cover.jpg);
   background-size: cover;
   background-position: center;
   height: 576px;

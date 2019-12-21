@@ -14,11 +14,11 @@
 }
 
 .article__button-delete:hover .article__image-delete {
-  background-image: url(../../../src/images/icons/trash-hover.svg);
+  background-image: url(../../../images/icons/trash-hover.svg);
 }
 
 .article__button-delete:active .article__image-delete {
-  background-image: url(../../../src/images/icons/trash-active.svg);
+  background-image: url(../../../images/icons/trash-active.svg);
 }
 
 @media screen and (max-width: 1120px) and (min-width: 769px) {

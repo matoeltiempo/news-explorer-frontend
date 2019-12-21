@@ -14,11 +14,11 @@
 }
 
 .article__button:hover .article__flag {
-  background-image: url(../../../src/images/icons/flag-hover.svg);
+  background-image: url(../../../images/icons/flag-hover.svg);
 }
 
 .article__button:active .article__flag {
-  background-image: url(../../../src/images/icons/flag-active.svg);
+  background-image: url(../../../images/icons/flag-active.svg);
 }
 
 @media screen and (max-width: 950px) and (min-width: 768px) {
