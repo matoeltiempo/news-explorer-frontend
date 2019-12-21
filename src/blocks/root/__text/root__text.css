@@ -7,3 +7,10 @@
   line-height: 24px;
   color: rgba(26, 27, 34, 0.5);
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .root__text {
+    margin: 16px 0px 0px 16px;
+    width: 85%;
+   }
+}

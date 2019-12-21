@@ -1,20 +1,29 @@
-@import url(./__icon-git/footer__icon-git.css);
-@import url(./__icon-facebook/footer__icon-facebook.css);
-
 .footer__container {
   display: flex;
   margin-left: 22.2%;
 }
 
+@media screen and (max-width: 1440px) and (min-width: 1141px) {
+  .footer__container {
+    position: absolute;
+    right: 5%;
+    margin-left: 0%;
+  }
+}
+
 @media screen and (max-width: 1140px) and (min-width: 1021px) {
   .footer__container {
-    margin-left: 15%;
+    position: absolute;
+    right: 5%;
+    margin-left: 0%;
   }
 }
 
 @media screen and (max-width: 1020px) and (min-width: 636px) {
   .footer__container {
-    margin-left: 5%;
+    position: absolute;
+    right: 3%;
+    margin-left: 0%;
   }
 }
 

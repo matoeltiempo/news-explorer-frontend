@@ -1,7 +1,3 @@
-@import url(./__link-main/footer__link-main.css);
-@import url(./__link-about/footer__link-about.css);
-@import url(./__link-yandex/footer__link-yandex.css);
-
 .footer__links {
   display: flex;
   justify-content: flex-end;

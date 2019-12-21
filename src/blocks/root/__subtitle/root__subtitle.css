@@ -8,3 +8,11 @@
   color: #1a1b22;
   padding-bottom: 56px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .root__subtitle {
+    padding-bottom: 32px;
+    margin: 16px 0px 0px 16px;
+    width: 85%;
+   }
+}
