@@ -22,12 +22,23 @@ module.exports = {
         }
       },
       {
-        test: /\.(woff|woff2|ttf|otf|png|jpe?g|gif|svg)$/i,
+        test: /\.(woff|woff2|ttf|otf)$/i,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]'
+              name: 'fonts/[name].[ext]'
+            }
+          },
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[name].[ext]'
             }
           },
           {
