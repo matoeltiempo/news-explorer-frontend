@@ -1,6 +1,6 @@
 .article__title {
   color: #1a1b22;
-  font-family: robotoslab-regular;
+  font-family: robotoslab-regular, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -12,7 +12,6 @@
 @media screen and (max-width: 950px) and (min-width: 768px) {
   .article__title {
     color: #1a1b22;
-    font-family: robotoslab-regular;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -25,7 +24,6 @@
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .article__title {
     color: #1a1b22;
-    font-family: robotoslab-regular;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;

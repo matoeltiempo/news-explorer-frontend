@@ -1,7 +1,7 @@
 .article__source {
   position: absolute;
   color: #b6bcbf;
-  font-family: robotoslab-regular;
+  font-family: robotoslab-regular, Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
