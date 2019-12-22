@@ -1,7 +1,7 @@
 @import url(./__link-about/header__link-about.css);
 @import url(./__link-main/header__link-main.css);
 @import url(./__link-saved-news/header__link-saved-news.css);
-@import url(./__links_bold/header__link_bold.css);
+@import url(./__links_bold/header__links_bold.css);
 
 .header__links {
   display: flex;
