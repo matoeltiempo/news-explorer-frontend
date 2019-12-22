@@ -11,13 +11,16 @@
   border: 0px;
   padding: 0px;
   cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/icons/flag.svg);
 }
 
-.article__button:hover .article__flag {
+.article__button:hover {
   background-image: url(../../../images/icons/flag-hover.svg);
 }
 
-.article__button:active .article__flag {
+.article__button:active {
   background-image: url(../../../images/icons/flag-active.svg);
 }
 

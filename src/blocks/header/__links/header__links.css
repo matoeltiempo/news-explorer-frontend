@@ -1,0 +1,21 @@
+@import url(./__link-about/header__link-about.css);
+@import url(./__link-main/header__link-main.css);
+@import url(./__link-saved-news/header__link-saved-news.css);
+@import url(./__links_bold/header__link_bold.css);
+
+.header__links {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: roboto-medium;
+  font-size: 18px;
+  line-height: 24px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 635px) and (min-width: 320px) {
+  .header__links {
+    display: none;
+  }
+}

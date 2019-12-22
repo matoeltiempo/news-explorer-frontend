@@ -11,13 +11,17 @@
   border: 0px;
   padding: 0px;
   cursor: pointer;
+  background-image: url(../../../images/icons/trash.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
-.article__button-delete:hover .article__image-delete {
+.article__button-delete:hover {
   background-image: url(../../../images/icons/trash-hover.svg);
 }
 
-.article__button-delete:active .article__image-delete {
+.article__button-delete:active {
   background-image: url(../../../images/icons/trash-active.svg);
 }
 

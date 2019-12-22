@@ -13,19 +13,18 @@
 <body>
   <div class="page">
     <div class="about">
-      <header class="header_container-black">
-        <a href="./index.html" class="header_title_black">NewsExplorer</a>
-        <img src="<%=require('./images/icons/menu-black.svg')%>" class="header_button" alt="menu">
-        <div class="header_links">
-          <a href="./index.html" class="header_link-main-black">Главная</a>
-          <div class="header_active-about">
-            <a href="./about.html" class="header_link-about-select">О проекте</a>
+      <header class="header header_black">
+        <a href="./index.html" class="header__title header__title_black">NewsExplorer</a>
+        <img src="<%=require('./images/icons/menu-black.svg')%>" class="header__list" alt="menu">
+        <div class="header__links">
+          <a href="./index.html" class="header__link-main header__link-main_black">Главная</a>
+          <div class="header__active header__active_black">
+            <a href="./about.html" class="header__link_bold">О проекте</a>
           </div>
-          <a href="./saved-news.html" class="header_link-saved-news-black">Сохранённые статьи</a>
-          <button class="button_authorization-black">
-            <h3 class="button_authorization-black-text">Грета</h3>
-            <img src="<%=require('./images/icons/logout-black.svg')%>" class="button_authorization-black-image"
-              alt="logout">
+          <a href="./saved-news.html" class="header__link-saved-news header__link-saved-news_black">Сохранённые
+            статьи</a>
+          <button class="header__button header__button_black">Грета
+            <img src="<%=require('./images/icons/logout-black.svg')%>" class="header__icon" alt="logout">
           </button>
         </div>
       </header>
@@ -133,8 +132,9 @@
                   <h5 class="glide__slide_author_email">mariiifed@yandex.ru</h5>
                 </div>
               </div>
-              <h5 class="glide__slide_text">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
-                Plugins > Available plugins   and find and install Emmet plugin.</h5>
+              <h5 class="glide__slide_text">You can install this plugin directly from NetBeans Plugin Portal: in
+                NetBeans, open Tools >
+                Plugins > Available plugins and find and install Emmet plugin.</h5>
             </li>
 
             <li class="glide__slide">
@@ -152,8 +152,10 @@
           </ul>
         </div>
         <div class="glide__arrows" data-glide-el="controls">
-          <img src="<%=require('./images/icons/arrow-left.svg')%>" class="glide__arrow glide__arrow--left" data-glide-dir="<" alt="arrow-left">
-          <img src="<%=require('./images/icons/arrow-right.svg')%>" class="glide__arrow glide__arrow--right" data-glide-dir=">" alt="arrow-rigt">
+          <img src="<%=require('./images/icons/arrow-left.svg')%>" class="glide__arrow glide__arrow--left"
+            data-glide-dir="<" alt="arrow-left">
+          <img src="<%=require('./images/icons/arrow-right.svg')%>" class="glide__arrow glide__arrow--right"
+            data-glide-dir=">" alt="arrow-rigt">
         </div>
       </div>
 
@@ -169,9 +171,11 @@
       </div>
 
       <div class="footer__container">
-        <a href="https://github.com/matoeltiempo"><img class="footer__icon" src="<%=require('./images/icons/git.svg')%>" alt="git"></a>
+        <a href="https://github.com/matoeltiempo"><img class="footer__icon" src="<%=require('./images/icons/git.svg')%>"
+            alt="git"></a>
         <a href="https://www.facebook.com/"><img class="footer__icon" src="<%=require('./images/icons/facebook.svg')%>"
             alt="facebook"></a>
+      </div>
     </footer>
   </div>
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>

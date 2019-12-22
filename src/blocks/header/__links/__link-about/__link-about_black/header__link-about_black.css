@@ -1,0 +1,14 @@
+.header__link-about.header__link-about_black {
+  color: #B6BCBF;
+  margin-left: 34px;
+}
+
+.header__link-about.header__link-about_black:hover {
+  color: #1A1B22;
+}
+
+@media screen and (max-width: 820px) and (min-width: 636px) {
+  .header__link-about.header__link-about_black {
+    margin-left: 10px;
+  }
+}

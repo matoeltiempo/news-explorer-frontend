@@ -12,28 +12,26 @@
 
 <body>
   <div class="page">
-    <div class="news_saved">
-      <header class="header_container-black">
-        <a href="./index.html" class="header_title_black">NewsExplorer</a>
-        <img src="<%=require('./images/icons/menu-black.svg')%>" class="header_button" alt="menu">
-        <div class="header_links">
-          <a href="./index.html" class="header_link-main-black">Главная</a>
-          <a href="./about.html" class="header_link-about-black">О проекте</a>
-          <div class="header_active-saved-news">
-            <a href="./saved-news.html" class="header_link-saved-news-select">Сохранённые статьи</a>
+    <div class="saved">
+      <header class="header header_black">
+        <a href="./index.html" class="header__title header__title_black">NewsExplorer</a>
+        <img src="<%=require('./images/icons/menu-black.svg')%>" class="header__list" alt="menu">
+        <div class="header__links">
+          <a href="./index.html" class="header__link-main header__link-main_black">Главная</a>
+          <a href="./about.html" class="header__link-about header__link-about_black">О проекте</a>
+          <div class="header__active header__active_black">
+            <a href="./saved-news.html" class="header__link_bold">Сохранённые статьи</a>
           </div>
-          <button class="button_authorization-black">
-            <h3 class="button_authorization-black-text">Грета</h3>
-            <img src="<%=require('./images/icons/logout-black.svg')%>" class="button_authorization-black-image"
-              alt="logout">
+          <button class="header__button header__button_black">Грета
+            <img src="<%=require('./images/icons/logout-black.svg')%>" class="header__icon" alt="logout">
           </button>
         </div>
       </header>
 
-      <div class="root">
-        <h3 class="root__text">Сохранённые статьи</h3>
-        <h2 class="root__title">Грета, у вас 5 сохранённых статей</h2>
-        <h3 class="root__subtitle">По ключевым словам: <strong>Природа, Тайга и 2 другим</strong></h3>
+      <div class="saved__content">
+        <h3 class="saved__text">Сохранённые статьи</h3>
+        <h2 class="saved__title">Грета, у вас 5 сохранённых статей</h2>
+        <h3 class="saved__subtitle">По ключевым словам: <strong>Природа, Тайга и 2 другим</strong></h3>
       </div>
     </div>
 
@@ -41,92 +39,82 @@
       <div class="article">
         <img src="<%=require('./images/arcile1.jpg')%>" class="article__image" alt="aricle1">
         <div class="article__topic">
-          <h3 class="article__topic-text">Природа</h3>
+          <h5 class="article__topic-text">Природа</h5>
         </div>
         <div class="article__window-delete">
-          <h3 class="article__window-delete-title">Убрать из сохранённых</h3>
+          <h5 class="article__window-delete-title">Убрать из сохранённых</h5>
         </div>
-        <button class="article__button-delete">
-          <div class="article__image-delete"></div>
-        </button>
-        <div class="article__data">2 августа, 2019</div>
-        <div class="article__title">Национальное достояние – парки</div>
-        <div class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-          система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
-        <div class="article__source">Лента.ру</div>
+        <button class="article__button-delete"></button>
+        <h5 class="article__data">2 августа, 2019</h5>
+        <h3 class="article__title">Национальное достояние – парки</h3>
+        <h5 class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
+          система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</h5>
+        <h5 class="article__source">Лента.ру</h5>
       </div>
 
       <div class="article">
         <img src="<%=require('./images/article4.jpg')%>" class="article__image" alt="article2">
         <div class="article__topic">
-          <h3 class="article__topic-text">Природа</h3>
+          <h5 class="article__topic-text">Природа</h5>
         </div>
         <div class="article__window-delete">
-          <h3 class="article__window-delete-title">Убрать из сохранённых</h3>
+          <h5 class="article__window-delete-title">Убрать из сохранённых</h5>
         </div>
-        <button class="article__button-delete">
-          <div class="article__image-delete"></div>
-        </button>
-        <div class="article__data">2 августа, 2019</div>
-        <div class="article__title">Лесные огоньки: история одной фотографии</div>
-        <div class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы
+        <button class="article__button-delete"></button>
+        <h5 class="article__data">2 августа, 2019</h5>
+        <h3 class="article__title">Лесные огоньки: история одной фотографии</h3>
+        <h5 class="article__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы
           запечатлеть ускользающую красоту одного
-          из местных чудес природы.</div>
-        <div class="article__source">Медуза</div>
+          из местных чудес природы.</h5>
+        <h5 class="article__source">Медуза</h5>
       </div>
 
       <div class="article">
         <img src="<%=require('./images/article2.jpg')%>" class="article__image" alt="article2">
         <div class="article__topic">
-          <h3 class="article__topic-text">Тайга</h3>
+          <h5 class="article__topic-text">Тайга</h5>
         </div>
         <div class="article__window-delete">
-          <h3 class="article__window-delete-title">Убрать из сохранённых</h3>
+          <h5 class="article__window-delete-title">Убрать из сохранённых</h5>
         </div>
-        <button class="article__button-delete">
-          <div class="article__image-delete"></div>
-        </button>
-        <div class="article__data">2 августа, 2019</div>
-        <div class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</div>
-        <div class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
-          необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</div>
-        <div class="article__source">Медиазона</div>
+        <button class="article__button-delete"></button>
+        <h5 class="article__data">2 августа, 2019</h5>
+        <h3 class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+        <h5 class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
+          необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</h5>
+        <h5 class="article__source">Медиазона</h5>
       </div>
 
       <div class="article">
         <img src="<%=require('./images/article2.jpg')%>" class="article__image" alt="article2">
         <div class="article__topic">
-          <h3 class="article__topic-text">Парки</h3>
+          <h5 class="article__topic-text">Парки</h5>
         </div>
         <div class="article__window-delete">
-          <h3 class="article__window-delete-title">Убрать из сохранённых</h3>
+          <h5 class="article__window-delete-title">Убрать из сохранённых</h5>
         </div>
-        <button class="article__button-delete">
-          <div class="article__image-delete"></div>
-        </button>
-        <div class="article__data">2 августа, 2019</div>
-        <div class="article__title">Национальное достояние – парки</div>
-        <div class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-          система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
-        <div class="article__source">Дзен</div>
+        <button class="article__button-delete"></button>
+        <h5 class="article__data">2 августа, 2019</h5>
+        <h3 class="article__title">Национальное достояние – парки</h3>
+        <h5 class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
+          система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</h5>
+        <h5 class="article__source">Дзен</h5>
       </div>
 
       <div class="article">
         <img src="<%=require('./images/article3.jpg')%>" class="article__image" alt="article3">
         <div class="article__topic">
-          <h3 class="article__topic-text">Природа</h3>
+          <h5 class="article__topic-text">Природа</h5>
         </div>
         <div class="article__window-delete">
-          <h3 class="article__window-delete-title">Убрать из сохранённых</h3>
+          <h5 class="article__window-delete-title">Убрать из сохранённых</h5>
         </div>
-        <button class="article__button-delete">
-          <div class="article__image-delete"></div>
-        </button>
-        <div class="article__data">2 августа, 2019</div>
-        <div class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</div>
-        <div class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
-          необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</div>
-        <div class="article__source">Риа</div>
+        <button class="article__button-delete"></button>
+        <h5 class="article__data">2 августа, 2019</h5>
+        <h3 class="article__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+        <h5 class="article__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о
+          необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</h5>
+        <h5 class="article__source">Риа</h5>
       </div>
     </div>
 
@@ -143,6 +131,7 @@
             alt="git"></a>
         <a href="https://www.facebook.com/"><img class="footer__icon" src="<%=require('./images/icons/facebook.svg')%>"
             alt="facebook"></a>
+      </div>
     </footer>
   </div>
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
