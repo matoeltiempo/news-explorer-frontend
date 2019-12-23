@@ -1,4 +1,4 @@
-.techhnologies_container {
+.techhnologies__container {
   display: flex;
   align-items: center;
   text-align: center;
@@ -6,20 +6,20 @@
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1150px) {
-  .techhnologies_container {
+  .techhnologies__container {
     margin-left: 5%;
   }
 }
 
 @media screen and (max-width: 1149px) and (min-width: 769px) {
-  .techhnologies_container {
+  .techhnologies__container {
     margin-left: 5%;
     margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 400px) {
-  .techhnologies_container {
+  .techhnologies__container {
     margin-left: 3%;
     margin-bottom: 40px;
     display: grid;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
-  .techhnologies_container {
+  .techhnologies__container {
     margin-left: 3%;
     margin-bottom: 40px;
     display: grid;

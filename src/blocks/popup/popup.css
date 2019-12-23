@@ -6,6 +6,9 @@
 @import url(./__close/popup__close.css);
 @import url(./__error-message/popup__error-message.css);
 @import url(./__bottom/popup__bottom.css);
+@import url(./__link/popup__link.css);
+@import url(./__link-done/popup__link-done.css);
+@import url(./__paragraph/popup__paragraph.css);
 
 .popup {
   position: fixed;
