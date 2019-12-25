@@ -1,6 +1,6 @@
 .search__input {
   width: 584px;
-  height: 62px;
+  height: 60px;
   border-radius: 100px;
   border: 0px;
   margin: 0px auto 0px auto;
@@ -10,11 +10,11 @@
   font-weight: normal;
   line-height: 22px;
   color: #1a1b22;
-  border: 1px solid #d1d2d6;
+  border: 2px solid #d1d2d6;
 }
 
 .search__input:focus {
-  border: 1px solid #2F71E5;
+  border: 2px solid #2F71E5;
 }
 
 @media screen and (max-width: 768px) and (min-width: 636px) {
