@@ -1,8 +1,8 @@
 # news-explorer-frontend
 
-### проект доступен по [адресу](http://matoeltiempo.site/)
+### проект доступен по [адресу](http://www.matoeltiempo.site/)
 
-http://matoeltiempo.site/
+http://www.matoeltiempo.site/
 
 ### Установка и запуск проекта
 1. Скачайте сборку архивом или используя команду:
