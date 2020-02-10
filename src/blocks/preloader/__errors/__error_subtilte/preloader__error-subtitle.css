@@ -1,0 +1,11 @@
+.preloader__error-subtitle {
+  font-family: roboto-regular, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+  margin: 16px auto 80px auto;
+  max-width: 340px;
+  text-align: center;
+}

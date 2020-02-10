@@ -1,0 +1,9 @@
+.header__link-saved-news.header__link-saved-news_bold {
+  color: #1A1B22;
+  display: block;
+  margin-left: 0px;
+}
+
+.header__link-saved-news.header__link-saved-news_bold:hover {
+  color: #1A1B22
+}

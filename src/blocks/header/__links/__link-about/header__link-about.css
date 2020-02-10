@@ -1,0 +1,10 @@
+@import url(./__link-about_black/header__link-about_black.css);
+@import url(./__link-about_bold/header__link-about_bold.css);
+
+.header__link-about {
+  color: #B6BCBF;
+}
+
+.header__link-about:hover {
+  color: #ffffff;
+}

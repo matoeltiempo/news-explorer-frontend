@@ -1,0 +1,16 @@
+.article__window-title {
+  font-family: roboto-medium, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .article__window-title {
+    font-size: 9px;
+    line-height: 11px;
+  }
+}

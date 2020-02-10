@@ -1,0 +1,18 @@
+@import url(./__container/header__container.css);
+@import url(./_black/header_black.css);
+@import url(./__title/header__title.css);
+@import url(./__active/header__active.css);
+@import url(./__button/header__button.css);
+@import url(./__button_black/header__button_black.css);
+@import url(./__links/header__links.css);
+@import url(./__list/header__list.css);
+@import url(./__icon/header__icon.css);
+
+.header {
+  width: 100%;
+  background-image: url(../../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 576px;
+  position: relative;
+}

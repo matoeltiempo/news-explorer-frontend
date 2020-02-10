@@ -1,0 +1,19 @@
+@import url(./__slide/glide__slide.css);
+@import url(./__slides/glide__slides.css);
+@import url(./__track/glide__track.css);
+@import url(./__arrows/glide__arrows.css);
+@import url(./__bullets/glide__bullets.css);
+
+.glide {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 64px;
+}
+  .glide * {
+    box-sizing: inherit;
+}
+
+.glide--rtl {
+  direction: rtl;
+}

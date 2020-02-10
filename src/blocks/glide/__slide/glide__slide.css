@@ -1,0 +1,24 @@
+@import url(./_author/glide__slide_author.css);
+@import url(./_date/glide__slide_date.css);
+@import url(./__text/glide__slide_text.css);
+
+.glide__slide {
+  max-width: 400px;
+  min-width: 400px;
+  height: 288px;
+  flex-shrink: 0;
+  white-space: normal;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 24px 24px 24px;
+}
+
+.glide__slide a {
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

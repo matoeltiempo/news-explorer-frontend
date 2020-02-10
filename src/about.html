@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>news explorer</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
+  <link rel="shortcut icon" type="image/png" href="<%=require('./images/icons/news-explorer.png')%>">
+</head>
+
+<body>
+  <div class="page">
+    <div class="about">
+      <header class="header header_black">
+        <a href="./index.html" class="header__title header__title_black">NewsExplorer</a>
+        <img src="<%=require('./images/icons/menu-black.svg')%>" class="header__list" alt="меню">
+        <div class="header__links">
+          <a href="./index.html" class="header__link-main header__link-main_black">Главная</a>
+          <div class="header__active header__active_black">
+            <a href="./about.html" class="header__link-about header__link-about_bold">О проекте</a>
+          </div>
+          <a href="./saved-news.html" class="header__link-saved-news header__link-saved-news_black">Сохранённые
+            статьи</a>
+          <button class="header__button header__button_black">Грета
+            <img src="<%=require('./images/icons/logout-black.svg')%>" class="header__icon" alt="логин">
+          </button>
+        </div>
+      </header>
+
+      <div class="about__content">
+        <h2 class="about__title">Клиентам</h2>
+        <div class="about__text">
+          <h5 class="about__subtitle">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему
+            научился студент, какими технологиями владеет.</h5>
+
+          <p class="about__paragraph">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и
+            масштабируемым. Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах,
+            выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+          <p class="about__paragraph">Студент самостоятельно написал серверный код. В нём реализована функциональность
+            регистрации и входа в систему. Сайт позволяет искать новости за прошедшую неделю и сохранять понравившиеся в
+            личном кабинете. На сервере избранные новости хранятся в базе данных Mongo DB. Студент запрограммировал
+            надёжный сервер: отказоустойчивый и безопасный.</p>
+          <p class="about__paragraph">При создании проекта была использована сборка технологией Webpack. Это
+            современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт
+            работает в старых браузерах. Даже если посетители — пользователи старых операционных систем, у них не будет
+            проблем с отображением. А значит, потенциальная аудитория возрастает.</p>
+          <p class="about__paragraph">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт,
+            мы рекомендуем обратиться к этому студенту.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="technologies">
+      <h2 class="technologies__title">Используемые технологии</h2>
+      <div class="techhnologies__container">
+        <div class="technology">
+          <h3 class="technology__name">HTML</h3>
+          <img src="<%=require('./images/icons/html.svg')%>" class="technology__image" alt="иконка:'html'">
+        </div>
+
+        <div class="technology">
+          <h3 class="technology__name">CSS</h3>
+          <img src="<%=require('./images/icons/css.svg')%>" class="technology__image" alt="иконка:'css'">
+        </div>
+
+        <div class="technology">
+          <h3 class="technology__name">Java Script</h3>
+          <img src="<%=require('./images/icons/js.svg')%>" class="technology__image" alt="иконка:'java script'">
+        </div>
+
+        <div class="technology">
+          <h3 class="technology__name">Webpack</h3>
+          <img src="<%=require('./images/icons/webpack.svg')%>" class="technology__image" alt="иконка:'webpack'">
+        </div>
+      </div>
+    </div>
+
+    <div class="author">
+      <img src="<%=require('./images/avatar.jpg')%>" class="author__avatar" alt="аватар">
+      <div class="author__container">
+        <h2 class="author__title">Об авторе</h2>
+        <h3 class="author__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут,
+          чем вы занимаетесь, какими технологиями разработки владеете.</h3>
+        <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем
+          можете помочь потенциальным заказчикам.</p>
+      </div>
+    </div>
+
+    <div class="commit">
+      <div class="commit__container">
+        <h2 class="commit__title">История коммитов из GitHub</h2>
+        <div class="commit__github">
+          <a href="https://github.com/matoeltiempo" class="commit__github-text">Открыть в GitHub</a>
+          <img src="<%=require('./images/icons/back.svg')%>" class="button_github-image" alt="иконка:'github'">
+        </div>
+      </div>
+
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <p class="glide__slide_date">14 августа, 2019</p>
+              <div class="glide__slide_author">
+                <img src="<%=require('./images/avatar3.jpg')%>" class="glide__slide_author_avatar" alt="аватар">
+                <div class="glide__slide_author_about">
+                  <h3 class="glide__slide_author_name">Инга Иванова</h3>
+                  <p class="glide__slide_author_email">ingaiva@yandex.ru</p>
+                </div>
+              </div>
+              <p class="glide__slide_text">With Emmet, you can type CSS-like expressions
+                that can be dynamically parsed, and produce
+                output depending on what you type in the abb...</p>
+            </li>
+
+            <li class="glide__slide">
+              <p class="glide__slide_date">14 августа, 2019</p>
+              <div class="glide__slide_author">
+                <img src="<%=require('./images/avatar2.jpg')%>" class="glide__slide_author_avatar" alt="аватар">
+                <div class="glide__slide_author_about">
+                  <h3 class="glide__slide_author_name">Антон Долинин</h3>
+                  <p class="glide__slide_author_email">anton@yandex.ru</p>
+                </div>
+              </div>
+              <p class="glide__slide_text">Emmet (formerly Zen Coding) is a web-
+                developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+            </li>
+
+            <li class="glide__slide">
+              <p class="glide__slide_date">14 августа, 2019</p>
+              <div class="glide__slide_author">
+                <img src="<%=require('./images/avatar1.jpg')%>" class="glide__slide_author_avatar" alt="аватар">
+                <div class="glide__slide_author_about">
+                  <h3 class="glide__slide_author_name">Мария Фёдорова</h3>
+                  <p class="glide__slide_author_email">mariiifed@yandex.ru</p>
+                </div>
+              </div>
+              <p class="glide__slide_text">You can install this plugin directly from NetBeans Plugin Portal: in
+                NetBeans, open Tools >
+                Plugins > Available plugins and find and install Emmet plugin.</p>
+            </li>
+
+            <li class="glide__slide">
+              <p class="glide__slide_date">14 августа, 2019</p>
+              <div class="glide__slide_author">
+                <img src="<%=require('./images/avatar2.jpg')%>" class="glide__slide_author_avatar" alt="аватар">
+                <div class="glide__slide_author_about">
+                  <h3 class="glide__slide_author_name">Антон Долинин</h3>
+                  <p class="glide__slide_author_email">anton@yandex.ru</p>
+                </div>
+              </div>
+              <p class="glide__slide_text">Emmet (formerly Zen Coding) is a web-
+                developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <img src="<%=require('./images/icons/arrow-left.svg')%>" class="glide__arrow glide__arrow--left"
+            data-glide-dir="<" alt="стрелка-влево">
+          <img src="<%=require('./images/icons/arrow-right.svg')%>" class="glide__arrow glide__arrow--right"
+            data-glide-dir=">" alt="стрелка-вправо">
+        </div>
+      </div>
+
+      <button class="commit__button">Открыть в GitHub</button>
+    </div>
+
+    <footer class="footer">
+      <h5 class="footer__title">&#169; 2019 Supersite</h5>
+      <div class="footer__links">
+        <a href="./index.html" class="footer__link">Главная</a>
+        <a href="./about.html" class="footer__link">О проекте</a>
+        <a href="https://praktikum.yandex.ru/" class="footer__link">Яндекс.Практикум</a>
+      </div>
+
+      <div class="footer__container">
+        <a href="https://github.com/matoeltiempo"><img class="footer__icon" src="<%=require('./images/icons/git.svg')%>"
+            alt="иконка:'github"></a>
+        <a href="https://www.facebook.com/"><img class="footer__icon" src="<%=require('./images/icons/facebook.svg')%>"
+            alt="иконка:'facebook'"></a>
+      </div>
+    </footer>
+  </div>
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html>

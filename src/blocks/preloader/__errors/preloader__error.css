@@ -1,0 +1,8 @@
+@import url(./__error-image/preloader__error-image.css);
+@import url(./__error-title/preloader__error-title.css);
+@import url(./__error_subtilte/preloader__error-subtitle.css);
+
+.preloader__errors {
+  display: grid;
+  text-align: center;
+}

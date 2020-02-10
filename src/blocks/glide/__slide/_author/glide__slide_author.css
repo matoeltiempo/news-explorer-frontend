@@ -1,0 +1,8 @@
+@import url(./_avatar/glide__slide_author_avatar.css);
+@import url(./_about/glide__slide_author_about.css);
+@import url(./_name/glide__slide_author_name.css);
+@import url(./_email/glide__slide_author_email.css);
+
+.glide__slide_author {
+  display: flex;
+}

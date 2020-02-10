@@ -1,0 +1,17 @@
+.author__container {
+  margin: 131px 5.2% 0px 56px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1120px) and (min-width: 769px) {
+  .author__container {
+    margin: 70px 3% 0px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .author__container {
+    margin: 0px 3% 0px 32px;
+    width: 80%;
+  }
+}

@@ -1,0 +1,17 @@
+@import url(./__link-saved-news_black/header__link-saved-news_black.css);
+@import url(./__link-saved-news_bold/header__link-saved-news_bold.css);
+
+.header__link-saved-news {
+  font-family: roboto-medium, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+  margin-left: 34px;
+  display: none;
+}
+
+.header__link-saved-news:hover {
+  color: #ffffff;
+}
