@@ -1,9 +1,8 @@
-import { validate, instantValidate } from './validate';
-
-import {formRegistration, inputRegistrationEmail, inputRegistrationPassword, inputRegistrationName} from '../index';
+import { validateRegistration, instantValidate, validatelogin } from './validate';
+import { formRegistration, inputRegistrationEmail, inputRegistrationPassword, inputRegistrationName } from '../../index';
 
 export function handleValidateRegistration(event) {
-  validate(event.target);
+  validateRegistration(event.target);
 
   const emailIsValid = instantValidate(inputRegistrationEmail);
   const passwordIsValid = instantValidate(inputRegistrationPassword);
@@ -18,7 +17,7 @@ export function handleValidateRegistration(event) {
 }
 
 export function handleValidatelogin(event) {
-  validate(event.target);
+  validatelogin(event.target);
 }
 
 export function activateError(button) {

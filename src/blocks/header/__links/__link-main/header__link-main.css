@@ -1,4 +1,6 @@
 @import url(./__link-main_black/header__link-main_black.css);
+@import url(./__link-main_mobile/header__link-main_mobile.css);
+@import url(./__link-main_gray/header__link-main_gray.css);
 
 .header__link-main {
   color: #ffffff;

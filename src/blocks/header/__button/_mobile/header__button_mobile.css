@@ -1,0 +1,6 @@
+.header__button.header__button_mobile {
+  height: 56px;
+  width: 288px;
+  margin: 0px auto 24px auto;
+  justify-content: center;
+}

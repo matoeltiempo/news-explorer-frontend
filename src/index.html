@@ -37,7 +37,6 @@
           <button class="search__button">Искать</button>
         </form>
       </div>
-
     </div>
 
     <div class="news">
@@ -120,7 +119,8 @@
           <input required type="email" name="email" class="popup__input popup__input_type_email" placeholder="Введите почту">
           <span class="popup__error-message popup__error-message_email"></span>
           <h5 class="popup__subtitle popup__subtitle_password">Пароль</h5>
-          <input required type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
+          <input required min="8" max="30" type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
+          <span class="popup__error-message popup__error-message_password"></span>
           <button type class="button popup__button popup__button_login popup__button_activate">Войти</button>
         </form>
         <div class="popup__bottom">
@@ -142,7 +142,7 @@
           <input  required min="8" max="30" type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
           <span class="popup__error-message popup__error-message_password"></span>
           <h5 class="popup__subtitle popup__subtitle_name">Имя</h5>
-          <input required min="2" max="30" type="name" name="name" class="popup__input popup__input_type_name" placeholder="Введите имя">
+          <input required min="2" max="30" type="text" name="name" class="popup__input popup__input_type_name" placeholder="Введите имя">
           <span class="popup__error-message popup__error-message_name"></span>
           <button type class="button popup__button popup__button_registration">Зарегистрироваться</button>
         </form>
@@ -158,6 +158,23 @@
         <img src="<%=require('./images/icons/close-mid.svg')%>" alt="крестик" class="popup__close">
         <p class="popup__paragraph">Пользователь успешно зарегистрирован!</p>
         <p class="popup__link popup__link_done">Выполнить вход</h5>
+      </div>
+    </div>
+
+    <div class="popup popup_mobile">
+      <div class="header header_mobile">
+        <header class="header__container">
+          <a href="./index.html" class="header__title">NewsExplorer</a>
+          <img src="<%=require('./images/icons/close-mid.svg')%>" alt="крестик" class="popup__close popup__close_mobile">
+        </header>
+        <div class="header__links header__links_mobile">
+          <a href="./index.html" class="header__link-main header__link-main_mobile">Главная</a>
+          <a href="./about.html" class="header__link-about header__link-about_mobile">О проекте</a>
+          <a href="./saved-news.html" class="header__link-saved-news header__link-saved-news_mobile">Сохранённые статьи</a>
+        </div>
+          <button class="header__button header__button_mobile">Авторизоваться
+            <img src="<%=require('./images/icons/logout.svg')%>" class="header__icon" alt="логин">
+          </button>
       </div>
     </div>
 

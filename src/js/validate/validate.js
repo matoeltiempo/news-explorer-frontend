@@ -1,7 +1,7 @@
-export function validate(element) {
-  const errorElement = document.querySelector(`.popup__error-message_${element.name}`);
+import { registrationLevel, loginLevel } from '../../index';
 
-  console.log(element.checkValidity());
+export function validateRegistration(element) {
+  const errorElement = registrationLevel.querySelector(`.popup__error-message_${element.name}`);
 
   if (!element.checkValidity()) {
     errorElement.textContent = element.validationMessage;
@@ -11,6 +11,20 @@ export function validate(element) {
     return false
   } else if ((element.value.trim().length <= 1 || element.value.trim().length > 30) && element.type === 'text') {
     errorElement.textContent = 'Должно быть от 2 до 30 символов';
+    return false
+  } else {
+    errorElement.textContent = '';
+  } return true;
+}
+
+export function validatelogin(element) {
+  const errorElement = document.querySelector(`.popup__error-message_${element.name}`);
+
+  if (!element.checkValidity()) {
+    errorElement.textContent = element.validationMessage;
+    return false;
+  } else if ((element.value.trim().length < 8 || element.value.trim().length > 30) && element.type === 'password') {
+    errorElement.textContent = 'Пароль от 8 символов';
     return false
   } else {
     errorElement.textContent = '';

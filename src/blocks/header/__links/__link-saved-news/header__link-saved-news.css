@@ -1,5 +1,7 @@
 @import url(./__link-saved-news_black/header__link-saved-news_black.css);
 @import url(./__link-saved-news_bold/header__link-saved-news_bold.css);
+@import url(./__link-save-news_mobile/header__link-saved-news_mobile.css);
+@import url(./__link-save-news_white/header__link-saved-news_white.css);
 
 .header__link-saved-news {
   font-family: roboto-medium, Arial, Helvetica, sans-serif;

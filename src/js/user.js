@@ -1,5 +1,5 @@
 import { popupLoginLvl, popupRegistrationLvl, popupDoneLvl, buttonLogin, buttonRegistration } from '../index.js';
-import { validate } from './validate';
+import { validateRegistration } from './validate/validate';
 
 export function registrationUser(event) {
   event.preventDefault();
@@ -14,7 +14,7 @@ export function registrationUser(event) {
 
   inputs.forEach((elem) => {
     if (!elem.classList.contains('popup__button')) {
-      if (!validate(elem)) isValidForm = false;
+      if (!validateRegistration(elem)) isValidForm = false;
     }
   });
 

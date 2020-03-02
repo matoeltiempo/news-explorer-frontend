@@ -1,0 +1,9 @@
+.header__links.header__links_mobile {
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(1,100%);
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 56px;
+  font-family: roboto-normal, Arial, Helvetica, sans-serif;
+}

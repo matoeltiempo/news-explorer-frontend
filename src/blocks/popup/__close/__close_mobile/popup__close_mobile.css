@@ -1,0 +1,6 @@
+.popup__close.popup__close_mobile {
+  width: 24px;
+  position: absolute;
+  top: auto;
+  right: 24px;
+}

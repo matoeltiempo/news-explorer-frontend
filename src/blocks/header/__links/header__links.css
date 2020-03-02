@@ -1,6 +1,7 @@
 @import url(./__link-about/header__link-about.css);
 @import url(./__link-main/header__link-main.css);
 @import url(./__link-saved-news/header__link-saved-news.css);
+@import url(./_mobile/header__links_mobile.css);
 
 .header__links {
   display: flex;
