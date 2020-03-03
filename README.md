@@ -21,3 +21,4 @@ npm run deploy
 ```
 
 ### Локальный сервер будет доступен по [адресу](http://localhost:3000/)
+### Проект на [git](https://matoeltiempo.github.io/news-explorer-frontend/)
