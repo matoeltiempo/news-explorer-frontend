@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>news explorer</title>
-  <link rel="stylesheet" href="style.b78735abbc332cfb6d02.css?8773940e58a928f862c5">
+  <link rel="stylesheet" href="style.5f49d37fc86f53f2345b.css?a3b77422cc62337cfa0a">
   <link rel="shortcut icon" type="image/png" href="images/news-explorer.png">
 </head>
 
@@ -37,7 +37,6 @@
           <button class="search__button">Искать</button>
         </form>
       </div>
-
     </div>
 
     <div class="news">
@@ -111,55 +110,73 @@
       </div>
     </div>
 
-    <!-- <div class="popup popup_login">
+    <div class="popup popup_login">
       <div class="popup__content">
         <img src="images/close-mid.svg" alt="крестик" class="popup__close">
         <h3 class="popup__title">Вход</h3>
         <form class="popup__form popup__form_login">
           <h5 class="popup__subtitle popup__subtitle_email">Email</h5>
           <input required type="email" name="email" class="popup__input popup__input_type_email" placeholder="Введите почту">
-          <span class="popup__error-message popup__error-message_email">Неправильный формат email</span>
+          <span class="popup__error-message popup__error-message_email"></span>
           <h5 class="popup__subtitle popup__subtitle_password">Пароль</h5>
-          <input required type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
-          <button type class="button popup__button">Войти</button>
+          <input required min="8" max="30" type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
+          <span class="popup__error-message popup__error-message_password"></span>
+          <button type class="button popup__button popup__button_login popup__button_activate">Войти</button>
         </form>
         <div class="popup__bottom">
           <p class="popup__text">или</p>
-          <p class="popup__link">Зарегистрироваться</p>
+          <p class="popup__link popup__link_registration">Зарегистрироваться</p>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <div class="popup popup_registration">
+    <div class="popup popup_registration">
       <div class="popup__content">
         <img src="images/close-mid.svg" alt="крестик" class="popup__close">
         <h3 class="popup__title">Регистрация</h3>
-        <form class="popup__form popup__form_registration">
+        <form class="popup__form popup__form_registration" name="registration">
           <h5 class="popup__subtitle popup__subtitle_email">Email</h5>
-          <input required type="email" name="email" class="popup__input popup__input_type_email" placeholder="Введите почту">
-          <span class="popup__error-message popup__error-message_email">Неправильный формат email</span>
+          <input required min="7" max="30" type="email" name="text" class="popup__input popup__input_type_email" placeholder="Введите почту">
+          <span class="popup__error-message popup__error-message_text"></span>
           <h5 class="popup__subtitle popup__subtitle_password">Пароль</h5>
-          <input required min="8" max="30" type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
-          <span class="popup__error-message popup__error-message_password">Слабый пароль</span>
-          <h5 class="popup__subtitle popup__subtitle_email">Имя</h5>
-          <input required min="2" max="30" type="name" name="name" class="popup__input popup__input_type_name" placeholder="Введите имя">
+          <input  required min="8" max="30" type="password" name="password" class="popup__input popup__input_type_password" placeholder="Введите пароль">
+          <span class="popup__error-message popup__error-message_password"></span>
+          <h5 class="popup__subtitle popup__subtitle_name">Имя</h5>
+          <input required min="2" max="30" type="text" name="name" class="popup__input popup__input_type_name" placeholder="Введите имя">
           <span class="popup__error-message popup__error-message_name"></span>
-          <button type class="button popup__button">Зарегистрироваться</button>
+          <button type class="button popup__button popup__button_registration">Зарегистрироваться</button>
         </form>
         <div class="popup__bottom">
           <p class="popup__text">или</p>
-          <p class="popup__link">Войти</p>
+          <p class="popup__link popup__link_login">Войти</p>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <div class="popup popup_done">
+    <div class="popup popup_done">
       <div class="popup__content">
         <img src="images/close-mid.svg" alt="крестик" class="popup__close">
         <p class="popup__paragraph">Пользователь успешно зарегистрирован!</p>
         <p class="popup__link popup__link_done">Выполнить вход</h5>
       </div>
-    </div> -->
+    </div>
+
+    <div class="popup popup_mobile">
+      <div class="header header_mobile">
+        <header class="header__container">
+          <a href="./index.html" class="header__title">NewsExplorer</a>
+          <img src="images/close-mid.svg" alt="крестик" class="popup__close popup__close_mobile">
+        </header>
+        <div class="header__links header__links_mobile">
+          <a href="./index.html" class="header__link-main header__link-main_mobile">Главная</a>
+          <a href="./about.html" class="header__link-about header__link-about_mobile">О проекте</a>
+          <a href="./saved-news.html" class="header__link-saved-news header__link-saved-news_mobile">Сохранённые статьи</a>
+        </div>
+          <button class="header__button header__button_mobile">Авторизоваться
+            <img src="images/logout.svg" class="header__icon" alt="логин">
+          </button>
+      </div>
+    </div>
 
     <footer class="footer">
       <h5 class="footer__title">&#169; 2019 Supersite</h5>
@@ -177,7 +194,7 @@
       </div>
     </footer>
   </div>
-  <script src="main.b8d2cc1caea1787aa9b3.js?8773940e58a928f862c5"></script>
+  <script src="main.5e5e2fbe702433dd5fa3.js?a3b77422cc62337cfa0a"></script>
 </body>
 
 </html>
